@@ -5,4 +5,16 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-size: clamp(1rem, 1.5rem) !important;
+}
+
+.button-navigation {
+  width: clamp(100px, 300px, 600px) !important;
+  font-size: clamp(1rem) !important;
+}
+
+.icon {
+  width: clamp(12px, 20px, 24px) !important;
+  height: clamp(12px, 20px, 24px) !important;
+  cursor: pointer;
 }
