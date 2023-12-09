@@ -18,7 +18,7 @@
 }
 
 .button-navigation {
-  width: clamp(100px, 300px, 600px) !important;
+  width: clamp(100px, 400px, 700px) !important;
   font-size: clamp(1rem) !important;
 }
 
