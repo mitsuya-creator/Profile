@@ -1,11 +1,11 @@
 import React from "react"
-import ButtonNavigation from "./button/buttonNavigation"
+import Layout from "../pages/layout"
 import { toggleDarkMode } from "../utils/darkmode"
 
 
 function App() {
   return (
-    <ButtonNavigation />
+    <Layout />
   )
 }
 

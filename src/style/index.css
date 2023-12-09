@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --bg-primary: #26252C;
+  --bg-secondary: #594AB2;
+  --bg-success: #64dd17;
+  --bg-body: #2d2d30;
+  --color-primary: #ffffff;
+
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -17,4 +26,9 @@
   width: clamp(12px, 20px, 24px) !important;
   height: clamp(12px, 20px, 24px) !important;
   cursor: pointer;
+}
+
+.current-selected {
+  fill: var(--bg-secondary) !important;
+  color: var(--bg-secondary) !important;
 }
