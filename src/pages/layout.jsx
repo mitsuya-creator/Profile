@@ -1,10 +1,10 @@
 import React from "react"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import ButtonNavigation from "@/components/button/buttonNavigation"
-import Home from "./home"
-import Works from "./works"
-import Plays from "./plays"
-import Messages from "./messages"
+import Home from "@/pages/home"
+import Works from "@/pages/works"
+import Plays from "@/pages/plays"
+import Messages from "@/pages/messages"
 
 function Layout() {
     return (
