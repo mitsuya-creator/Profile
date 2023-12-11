@@ -15,6 +15,7 @@
   margin: 0px;
   padding: 0px;
   font-size: clamp(1rem, 1.5rem) !important;
+  font-family: 'Inter', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* test when scrooldown */
