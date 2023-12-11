@@ -1,6 +1,6 @@
 import React from "react"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import ButtonNavigation from "../components/button/buttonNavigation"
+import ButtonNavigation from "@/components/button/buttonNavigation"
 import Home from "./home"
 import Works from "./works"
 import Plays from "./plays"
