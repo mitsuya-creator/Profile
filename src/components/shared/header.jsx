@@ -1,5 +1,34 @@
 import React from "react"
 import icon from "@/assets/icon.svg"
+import {
+    Select,
+    SelectContent,
+    SelectGroup,
+    SelectItem,
+    SelectLabel,
+    SelectTrigger,
+    SelectValue,
+} from "@/components/ui/select"
+
+function SelectDemo() {
+    return (
+        <Select>
+            <SelectTrigger className="w-[180px]">
+                <SelectValue placeholder="Select a fruit" />
+            </SelectTrigger>
+            <SelectContent>
+                <SelectGroup>
+                    <SelectLabel>Fruits</SelectLabel>
+                    <SelectItem value="apple">Apple</SelectItem>
+                    <SelectItem value="banana">Banana</SelectItem>
+                    <SelectItem value="blueberry">Blueberry</SelectItem>
+                    <SelectItem value="grapes">Grapes</SelectItem>
+                    <SelectItem value="pineapple">Pineapple</SelectItem>
+                </SelectGroup>
+            </SelectContent>
+        </Select>
+    )
+}
 
 function Header() {
     return (
@@ -11,10 +40,11 @@ function Header() {
                 </div>
                 <div className="flex justify-end">
                     <a href="#" className="mx-5">Blog</a>
-                    <select name="" id="web-version" className="mx-5 rounded-md border-0 p-1 w-min">
+                    {/* <select name="" id="web-version" className="mx-5 rounded-md border-0 p-1 w-min">
                         <option value="">current</option>
                         <option>v1.0.0</option>
-                    </select>
+                    </select> */}
+                    <SelectDemo />
                 </div>
             </section>
         </main>
