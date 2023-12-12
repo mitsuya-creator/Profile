@@ -27,7 +27,7 @@ function SelectDemo() {
 
 function Header() {
     return (
-        <main className="w-11/12 h-full dark:bg-slate-800 xl:w-8/12 box-shadow">
+        <header className="w-11/12 h-full dark:bg-slate-800 xl:w-8/12 box-shadow">
             <section className="flex justify-between items-center">
                 <div className="flex justify-start items-center">
                     <img src={icon} alt="icon-profile" className="w-16" />
@@ -40,7 +40,7 @@ function Header() {
                     </div>
                 </div>
             </section>
-        </main>
+        </header>
     )
 }
 
