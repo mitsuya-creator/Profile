@@ -5,7 +5,6 @@ import {
     SelectContent,
     SelectGroup,
     SelectItem,
-    SelectLabel,
     SelectTrigger,
     SelectValue,
 } from "@/components/ui/select"
@@ -13,17 +12,13 @@ import {
 function SelectDemo() {
     return (
         <Select>
-            <SelectTrigger className="w-[180px]">
-                <SelectValue placeholder="Select a fruit" />
+            <SelectTrigger className="w-[180px] select dark:bg-white">
+                <SelectValue placeholder="Select version" />
             </SelectTrigger>
-            <SelectContent>
+            <SelectContent className="dark:bg-slate-800 dark:text-slate-100">
                 <SelectGroup>
-                    <SelectLabel>Fruits</SelectLabel>
-                    <SelectItem value="apple">Apple</SelectItem>
-                    <SelectItem value="banana">Banana</SelectItem>
-                    <SelectItem value="blueberry">Blueberry</SelectItem>
-                    <SelectItem value="grapes">Grapes</SelectItem>
-                    <SelectItem value="pineapple">Pineapple</SelectItem>
+                    <SelectItem value="apple">Current</SelectItem>
+                    <SelectItem value="banana">v1.0.0</SelectItem>
                 </SelectGroup>
             </SelectContent>
         </Select>
@@ -38,13 +33,11 @@ function Header() {
                     <img src={icon} alt="icon-profile" className="w-16" />
                     <h1 className="font-bold text-3xl mx-3 dark:text-slate-100">JUN</h1>
                 </div>
-                <div className="flex justify-end">
-                    <a href="#" className="mx-5">Blog</a>
-                    {/* <select name="" id="web-version" className="mx-5 rounded-md border-0 p-1 w-min">
-                        <option value="">current</option>
-                        <option>v1.0.0</option>
-                    </select> */}
-                    <SelectDemo />
+                <div className="flex justify-end items-center">
+                    <a href="#" className="mx-5 dark:text-slate-100">Blog</a>
+                    <div className="hidden md:block">
+                        <SelectDemo />
+                    </div>
                 </div>
             </section>
         </main>

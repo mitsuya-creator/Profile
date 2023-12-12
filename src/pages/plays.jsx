@@ -1,7 +1,12 @@
 import React from "react"
+import Header from "@/components/shared/header"
 
 function Plays() {
-    return <h1>Plays</h1>
+    return (
+        <div className="w-full h-full flex justify-center dark:bg-slate-900">
+            <Header />
+        </div>
+    )
 }
 
 export default Plays;
