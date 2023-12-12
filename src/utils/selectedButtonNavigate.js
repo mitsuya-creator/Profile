@@ -8,7 +8,6 @@ function selectedButtonNavigate(pathname) {
             element.classList.remove("current-selected")
             element.classList.add("opacity-50")
         }
-        console.log("run")
     });
 
 

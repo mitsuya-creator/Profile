@@ -16,7 +16,6 @@ function ButtonNavigation() {
         selectedButtonNavigate(pathname);
 
     }, [pathname, currentOffsetY])
-    console.log(currentOffsetY, hiddenButtonNavigation)
     const [isDarkMode, setIsDarkMode] = useState(false);
     const handleDarkMode = () => {
         setIsDarkMode(!isDarkMode);
