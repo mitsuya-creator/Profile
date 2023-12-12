@@ -1,5 +1,20 @@
-const root = document.querySelector("html")
-root.setAttribute("class", "")
+const root = document.querySelector("html");
 export function toggleDarkMode() {
-    root.classList.contains("dark") ? root.classList.remove("dark") : root.classList.add("dark")
+    if (root.classList.contains("dark")) {
+        root.classList.remove("dark");
+        localStorage.setItem("isDarkMode", root.classList.contains("dark"));
+        return;
+    }
+    if (localStorage.isDarkMode == "true") {
+        root.classList.add("dark");
+        return;
+    }
+    root.classList.add("dark");
+    localStorage.setItem("isDarkMode", root.classList.contains("dark"));
 }
+window.addEventListener("load", function () {
+    if (this.localStorage.isDarkMode == "false") return;
+    if (this.localStorage.getItem("isDarkMode") != null) {
+        toggleDarkMode();
+    }
+})
