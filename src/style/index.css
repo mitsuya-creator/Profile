@@ -4,7 +4,7 @@
 
 :root {
   --bg-primary: #26252C;
-  --bg-secondary: #594AB2;
+  --bg-secondary: rgb(91 33 182);
   --bg-success: #64dd17;
   --bg-body: #2d2d30;
   --color-primary: #ffffff;

@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-slot": "^1.0.2",
     "cntw": "^1.0.1",
     "lucide-react": "^0.294.0",
     "react": "^18.2.0",

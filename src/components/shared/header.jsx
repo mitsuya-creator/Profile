@@ -36,7 +36,7 @@ function Header() {
                     </div>
                     <div className="flex justify-end items-center">
                         <a href="#" className="mx-5 dark:text-slate-100">Blog</a>
-                        <div className="hidden md:block">
+                        <div className="hidden mx-3 md:block">
                             <SelectDemo />
                         </div>
                     </div>
