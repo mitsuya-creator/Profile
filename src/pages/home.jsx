@@ -1,6 +1,8 @@
 import React from "react"
 import Header from "@/components/shared/header"
 import Hero from "@/components/hero"
+import TechStack from "@/components/techStack"
+import Education from "@/components/education"
 
 function Home() {
     return (
@@ -8,6 +10,8 @@ function Home() {
             <section className="w-screen">
                 <Header />
                 <Hero />
+                <TechStack/>
+                <Education/>
             </section>
         </div>
     )

@@ -6,7 +6,7 @@ function selectedButtonNavigate(pathname) {
             element.classList.add("current-selected")
         } else {
             element.classList.remove("current-selected")
-            element.classList.add("opacity-50")
+            element.classList.add("opacity-80")
         }
     });
 
