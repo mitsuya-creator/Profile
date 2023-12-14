@@ -3,6 +3,7 @@ import Header from "@/components/shared/header"
 import Hero from "@/components/hero"
 import TechStack from "@/components/techStack"
 import Education from "@/components/education"
+import Footer from "@/components/shared/footer"
 
 function Home() {
     return (
@@ -12,6 +13,7 @@ function Home() {
                 <Hero />
                 <TechStack/>
                 <Education/>
+                <Footer/>
             </section>
         </div>
     )
