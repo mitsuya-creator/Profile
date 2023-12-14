@@ -27,8 +27,8 @@ function SelectDemo() {
 
 function Header() {
     return (
-        <div className="w-screen flex justify-center">
-            <header className="w-11/12 h-full dark:bg-slate-800 xl:w-8/12 box-shadow">
+        <div className="w-screen flex justify-center overflow-x-hidden">
+            <header className="w-11/12 h-full dark:bg-slate-800 box-shadow xl:w-8/12 ">
                 <section className="flex justify-between items-center">
                     <div className="flex justify-start items-center">
                         <img src={icon} alt="icon-profile" className="w-16" />
