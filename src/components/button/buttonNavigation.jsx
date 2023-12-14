@@ -23,7 +23,7 @@ function ButtonNavigation() {
     }
     return (
         <>
-            <nav className={cn("bg-transparent w-full h-auto flex justify-center fixed inset-x-0 bottom-8 transition-all ease-in-out", hiddenButtonNavigation && "-mb-40")}>
+            <nav className={cn("bg-transparent z-10 w-full h-auto flex justify-center fixed inset-x-0 bottom-8 transition-all ease-in-out", hiddenButtonNavigation && "-mb-40")}>
                 <div className="bg-white button-navigation h-auto flex justify-around items-center rounded-lg border-2 px-5 py-5 mx-5 dark:bg-slate-800 dark:border-violet-800">
                     <Link to="/" className="dark:text-slate-400">
                         <section className="flex flex-col justify-center items-center">
