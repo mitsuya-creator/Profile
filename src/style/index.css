@@ -17,13 +17,9 @@
   font-size: clamp(1rem, 1.5rem) !important;
   font-family: 'Inter', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-/* test when scrooldown */
-body {
-  height: 200vh;
+body{
+  overflow-x: hidden;
 }
-
-/* end test */
 .button-navigation {
   width: clamp(100px, 400px, 700px) !important;
   font-size: clamp(1rem) !important;
