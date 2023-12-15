@@ -35,11 +35,6 @@ body{
   fill: var(--bg-secondary) !important;
   color: var(--bg-secondary) !important;
 }
-
-.box-shadow {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 29px 0px;
-}
-
 .select:focus {
   outline: none !important;
 }
