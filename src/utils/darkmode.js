@@ -1,5 +1,7 @@
 const root = document.querySelector("html");
-export function toggleDarkMode() {
+let darkMode;
+
+function toggleDarkMode() {
     if (root.classList.contains("dark")) {
         root.classList.remove("dark");
         localStorage.setItem("isDarkMode", root.classList.contains("dark"));
@@ -17,4 +19,11 @@ window.addEventListener("load", function () {
     if (this.localStorage.getItem("isDarkMode") != null) {
         toggleDarkMode();
     }
+    if(localStorage.isDarkMode == "true"){
+        darkMode = true;
+    }else{
+        darkMode = false;
+    }
 })
+
+export {darkMode,toggleDarkMode}

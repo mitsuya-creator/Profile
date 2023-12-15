@@ -1,7 +1,7 @@
 import { React, useEffect, useState } from "react"
 import { Link, Outlet, useLocation } from "react-router-dom"
 import { selectedButtonNavigate } from "@/utils/selectedButtonNavigate"
-import { toggleDarkMode } from "@/utils/darkmode"
+import { toggleDarkMode,darkMode } from "@/utils/darkmode"
 import { cn } from "cntw"
 
 function ButtonNavigation() {
@@ -16,7 +16,7 @@ function ButtonNavigation() {
         selectedButtonNavigate(pathname);
 
     }, [pathname, currentOffsetY])
-    const [isDarkMode, setIsDarkMode] = useState(false);
+    const [isDarkMode, setIsDarkMode] = useState(darkMode);
     const handleDarkMode = () => {
         setIsDarkMode(!isDarkMode);
         toggleDarkMode();
