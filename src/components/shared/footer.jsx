@@ -1,6 +1,7 @@
 import React from "react"
 import {getYear} from "@/utils/getYear"
 import {FaInstagram, FaGithub, FaXTwitter, FaLinkedin} from "react-icons/fa6"
+import { Link } from "react-router-dom"
 
 function Footer() {
     return (
@@ -27,6 +28,7 @@ function Footer() {
                     </svg>}
                         title={"Address"}
                         description={"Babakansari village 43284,Cianjur--WJ"}/>
+                    <Link to={"mailto:jujunjunaedi110107@gmail.com"}>
                     <CardFooter
                         icon={<svg xmlns = "http://www.w3.org/2000/svg" fill = "none" viewBox = "0 0 24 24" strokeWidth = {
                             1.5
@@ -38,34 +40,43 @@ function Footer() {
                     </svg>}
                         title={"Send me email"}
                         description={"jujunjunaedi110107@gmail.com"}/>
+                    </Link>
                 </section>
                 <section
                     className="border-t-2 w-inherit h-full mt-11 border-violet-800 flex flex-col-reverse md:justify-between md:flex-row ">
                     <span className="text-base mt-2 dark:text-slate-400">&copy; takadotdev {getYear} | All Rights Reserved</span>
                     <div className="flex flex-col mt-3 md:justify-between md:flex-row">
-                        <section
+                        <Link to={"https://www.instagram.com/takachan0012_/"}>
+                        <section 
                             className="hidden mb-2 bg-violet-800 items-center rounded-full p-3 w-12 h-12 hover:bg-violet-900 md:ms-2 md:block">
                             <FaInstagram className="w-6 h-6 fill-slate-100 dark:fill-slate-200"/>
                         </section>
                         <span className="text-base dark:text-slate-400 md:hidden">Instagram</span>
-
-                        <section
+                        </Link>
+                        
+                        <Link to={"https://github.com/takachan0012"}>
+                        <section 
                             className="hidden mb-2 bg-violet-800 items-center rounded-full p-3 w-12 h-12 hover:bg-violet-900 md:ms-2 md:block">
                             <FaGithub className="w-6 h-6 fill-slate-100 dark:fill-slate-200"/>
                         </section>
                         <span className="text-base dark:text-slate-400 md:hidden">Github</span>
-
-                        <section
+                        </Link>
+                        
+                        <Link to={"https://twitter.com/takachan0012_"}>
+                        <section 
                             className="hidden mb-2 bg-violet-800 items-center rounded-full p-3 w-12 h-12 hover:bg-violet-900 md:ms-2 md:block">
                             <FaXTwitter className="w-6 h-6 fill-slate-100 dark:fill-slate-200"/>
                         </section>
                         <span className="text-base dark:text-slate-400 md:hidden">Xtwitter</span>
-
+                        </Link>
+                        
+                        <Link to={"https://www.linkedin.com/in/jujun-junaedi-514b1a1b4"}>
                         <section
                             className="hidden mb-2 bg-violet-800 items-center rounded-full p-3 w-12 h-12 hover:bg-violet-900 md:ms-2 md:block">
                             <FaLinkedin className="w-6 h-6 fill-slate-100 dark:fill-slate-200"/>
                         </section>
                         <span className="text-base dark:text-slate-400 md:hidden">LinkedIn</span>
+                        </Link>
                     </div>
                 </section>
             </div>

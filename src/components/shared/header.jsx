@@ -8,6 +8,7 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@/components/ui/select"
+import { Link } from "react-router-dom";
 
 function SelectDemo() {
     return (
@@ -30,10 +31,12 @@ function Header() {
         <div className="w-screen flex justify-center overflow-x-hidden">
             <header className="w-11/12 h-full dark:bg-slate-800 xl:w-8/12 ">
                 <section className="flex justify-between items-center">
+                    <Link to={"/"}>
                     <div className="flex justify-start items-center">
                         <img src={icon} alt="icon-profile" className="w-16" />
                         <h1 className="font-bold text-3xl mx-3 dark:text-slate-100">JUN</h1>
                     </div>
+                    </Link>
                     <div className="flex justify-end items-center">
                         <a href="#" className="mx-5 dark:text-slate-100">Blog</a>
                         <div className="hidden mx-3 md:block">
