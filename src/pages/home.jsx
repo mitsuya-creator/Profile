@@ -8,7 +8,7 @@ import Footer from "@/components/shared/footer"
 function Home() {
     return (
         <div className="w-screen h-full flex justify-center dark:bg-slate-900">
-            <section className="w-screen">
+            <section>
                 <Header />
                 <Hero />
                 <TechStack/>
