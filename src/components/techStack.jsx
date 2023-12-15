@@ -11,7 +11,7 @@ function TechStack() {
                         craft solutions and breathe life into ideas. My programming skills as follows:</p>
                 </section>
                 <section className="grid mt-9 gap-3 grid-flow-row-dense grid-cols-1 md:grid-cols-3 grid-rows-3">
-                    {skillSet.map(content => <div key={content.name} className="w-full h-full border-2 p-6 flex justify-between border-violet-800 dark:text-slate-400 hover:bg-violet-800 hover:text-slate-100">
+                    {skillSet.map(content => <div key={content.name} className="w-full h-full border-2 p-6 flex justify-between border-violet-800 dark:text-slate-400 hover:bg-violet-800 hover:text-slate-100 dark:hover:text-slate-100">
                         <h4>{content.name}</h4>
                         <p>{content.status}</p>
                     </div>)}

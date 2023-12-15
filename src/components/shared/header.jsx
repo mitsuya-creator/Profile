@@ -18,8 +18,8 @@ function SelectDemo() {
             </SelectTrigger>
             <SelectContent className="bg-white dark:bg-slate-800 dark:text-slate-100">
                 <SelectGroup>
-                    <SelectItem value="apple">Current</SelectItem>
-                    <SelectItem value="banana">v1.0.0</SelectItem>
+                    <SelectItem value="apple" className="hover:cursor-pointer">Current</SelectItem>
+                    <SelectItem value="banana" className="hover:cursor-pointer">v1.0.0</SelectItem>
                 </SelectGroup>
             </SelectContent>
         </Select>
