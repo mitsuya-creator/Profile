@@ -23,7 +23,7 @@ function Hero() {
                     <img src={icon} alt="__profile" width="288px"/>
                 </aside>
             </main>
-            {isShow && <CuriculumVitae/>}
+            {isShow && <CuriculumVitae setIsShow={setIsShow} isShow={isShow}/>}
         </div>
     )
 }
