@@ -1,4 +1,4 @@
-const educationsData = [
+const educationData = [
     {
         id: 0,
         title: "Vocational high school 1 Sukaluyu, West Java",
@@ -20,4 +20,27 @@ const educationsData = [
 ]
 
 
-export {educationsData}
+const skillSet = [
+    {
+        name: "HTML",
+        status: "Intermediate"
+    }, {
+        name: "CSS3",
+        status: "Intermediate"
+    }, {
+        name: "JavaScript",
+        status: "Intermediate"
+    }, {
+        name: "Bootstrap",
+        status: "Intermediate"
+    }, {
+        name: "ReactJS",
+        status: "Intermediate"
+    }, {
+        name: "TailwindCSS",
+        status: "Intermediate"
+    }
+]
+
+
+export {educationData,skillSet}

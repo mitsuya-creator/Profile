@@ -1,10 +1,10 @@
 import React from "react"
-import { educationsData } from "@/utils/educationData"
+import { educationData } from "@/utils/profileData"
 
 function Timeline() {
     return (
         <div className="w-full h-full border-s-2 border-violet-800 dark:text-slate-400">
-            {educationsData.map(content => <ComponentsTimeline key={content.id}  title={content.title} description={content.description} years={content.years}/>)}
+            {educationData.map(content => <ComponentsTimeline key={content.id}  title={content.title} description={content.description} years={content.years}/>)}
         </div>
     )
 }

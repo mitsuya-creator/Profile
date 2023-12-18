@@ -1,6 +1,6 @@
 import React from "react"
 import profile from "@/assets/profile.png"
-import {educationsData} from "@/utils/educationData"
+import {educationData} from "@/utils/profileData"
 
 function CurriculumVitae(){
     return(
@@ -23,7 +23,7 @@ function CurriculumVitae(){
             </section>
             <section className="w-11/12 flex flex-col mt-3 border-b p-4 border-black">
                 <h2 className="text-xl font-bold">Educational Background</h2>
-                {educationsData.map(data => <LisContent key={data.id} title={data.title} description={data.description} years={data.years}/>)}
+                {educationData.map(data => <LisContent key={data.id} title={data.title} description={data.description} years={data.years}/>)}
             </section>
         </div>
     )

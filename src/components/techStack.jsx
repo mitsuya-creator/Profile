@@ -1,4 +1,5 @@
 import React from "react"
+import { skillSet } from "@/utils/profileData"
 
 function TechStack() {
     return (
@@ -20,27 +21,5 @@ function TechStack() {
         </div>
     )
 }
-
-const skillSet = [
-    {
-        name: "HTML",
-        status: "Intermediate"
-    }, {
-        name: "CSS3",
-        status: "Intermediate"
-    }, {
-        name: "JavaScript",
-        status: "Intermediate"
-    }, {
-        name: "Bootstrap",
-        status: "Intermediate"
-    }, {
-        name: "ReactJS",
-        status: "Intermediate"
-    }, {
-        name: "TailwindCSS",
-        status: "Intermediate"
-    }
-]
 
 export default TechStack;
