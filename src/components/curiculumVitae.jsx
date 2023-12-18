@@ -1,6 +1,6 @@
 import React from "react"
 import profile from "@/assets/profile.png"
-import {educationData} from "@/utils/profileData"
+import {educationData,skillSet} from "@/utils/profileData"
 
 function CurriculumVitae(){
     return(
@@ -9,7 +9,7 @@ function CurriculumVitae(){
                 <div className="rounded-full overflow-hidden">
                     <img src={profile} alt="profile-image" width={100} />
                 </div>
-                <div>
+                <div className="ms-5 text-base md:ms-0 md:w-1/2">
                     <h1 className="text-2xl font-bold">Jujun Junaedi</h1>
                     <p className="flex flex-col">
                         <span>Cianjur, 11 July 2001</span>
@@ -24,6 +24,12 @@ function CurriculumVitae(){
             <section className="w-11/12 flex flex-col mt-3 border-b p-4 border-black">
                 <h2 className="text-xl font-bold">Educational Background</h2>
                 {educationData.map(data => <LisContent key={data.id} title={data.title} description={data.description} years={data.years}/>)}
+            </section>
+            <section className="w-11/12 flex flex-col mt-3 border-b p-4 border-black">
+                <h2 className="text-xl font-bold">Tech Passion and Expertise</h2>
+                <div className="grid grid-cols-2 gap-1 sm:grid-cols-3">
+                    {skillSet.map(data => <LisContent key={data.name} title={data.name} description={data.status}/>)}
+                </div>
             </section>
         </div>
     )
