@@ -1,9 +1,8 @@
-import {React,useState} from "react"
+import React from "react"
 import icon from "@/assets/icon.svg"
-import CuriculumVitae from "@/components/pdfViewer"
+import {Link} from "react-router-dom"
 
 function Hero() {
-    const [isShow,setIsShow] = useState(false);
     return (
         <div className="w-screen flex justify-center my-11">
             <main className="w-11/12 h-full xl:w-8/12 md:flex justify-between">
@@ -15,7 +14,9 @@ function Hero() {
                         I discovered my love for unraveling complexities and weaving them into seamless
                         connections.</p>
                     <div className="w-full">
-                        <button className="bg-violet-700 p-4 rounded-md text-slate-100  " onClick={() => setIsShow(true)}>View CV</button>
+                        <Link to={"/curriculum-vitae"}>
+                            <button className="bg-violet-700 p-4 rounded-md text-slate-100">View CV</button>
+                        </Link>
                         <button className="bg-violet-700 p-4 mx-1 rounded-md text-slate-100">Contact</button>
                     </div>
                 </section>
@@ -23,7 +24,6 @@ function Hero() {
                     <img src={icon} alt="__profile" width="288px"/>
                 </aside>
             </main>
-            {isShow && <CuriculumVitae setIsShow={setIsShow} isShow={isShow}/>}
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import React from "react"
-import Timeline from "@/components/shared/timeline"
+import {Timeline} from "@/components/shared/timeline"
 
 function Education() {
     return (

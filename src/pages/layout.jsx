@@ -5,6 +5,7 @@ import Home from "@/pages/home"
 import Works from "@/pages/works"
 import Plays from "@/pages/plays"
 import Messages from "@/pages/messages"
+import CurriculumVitae from "@/components/curiculumVitae"
 
 function Layout() {
     return (
@@ -16,6 +17,7 @@ function Layout() {
                     <Route path="/plays" element={<Plays />} />
                     <Route path="/messages" element={<Messages />} />
                 </Route>
+                <Route path="/curriculum-vitae" element={<CurriculumVitae/>}/>
             </Routes>
         </BrowserRouter>
     )

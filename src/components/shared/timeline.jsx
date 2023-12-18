@@ -34,11 +34,11 @@ function ComponentsTimeline({title, description, years}) {
                 <h2 className="font-bold">{title}
                 </h2>
                 <p className="my-3">{description}</p>
-                <span>{years}</span>
+                <span className="italic">{years}</span>
             </section>
         </div>
     )
 
 }
 
-export default Timeline;
+export {Timeline,ComponentsTimeline};
