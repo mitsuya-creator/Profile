@@ -1,5 +1,5 @@
 import React from "react"
-import icon from "@/assets/icon.svg"
+import profileImage from "@/assets/profile.png"
 import {Link} from "react-router-dom"
 
 function Hero() {
@@ -21,7 +21,7 @@ function Hero() {
                     </div>
                 </section>
                 <aside className="hidden md:block">
-                    <img src={icon} alt="__profile" width="288px"/>
+                    <img src={profileImage} alt="__profile" width="288px"/>
                 </aside>
             </main>
         </div>
