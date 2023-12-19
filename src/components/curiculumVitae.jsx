@@ -9,9 +9,9 @@ function CurriculumVitae(){
                 <div className="rounded-full overflow-hidden">
                     <img src={profile} alt="profile-image" width={100} />
                 </div>
-                <div className="ms-5 text-base md:ms-0 md:w-1/2">
-                    <h1 className="text-2xl font-bold">Jujun Junaedi</h1>
-                    <p className="flex flex-col">
+                <div className="ms-5 text-base w-fit md:ms-0">
+                    <h1 className="sm:text-2xl font-bold">Jujun Junaedi</h1>
+                    <p className="sm:text-base flex flex-col">
                         <span>Cianjur, 11 July 2001</span>
                         <span>jujunjunaedi110107@gmail.com</span>
                         <span>www...</span>
