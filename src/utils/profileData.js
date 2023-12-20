@@ -8,7 +8,7 @@ const educationData = [
     {
         id: 1,
         title: "Learn to Create Web Applications with React, Beginner at Dicoding",
-        description:"Embarking on my journey with React, I've cultivated a robust skill set that revolves around its fundamental pillars. From mastering elements and crafting versatile components to harnessing the power of props for seamless data flow, handling events dynamically, and orchestrating application states ",
+        description: "Embarking on my journey with React, I've cultivated a robust skill set that revolves around its fundamental pillars. From mastering elements and crafting versatile components to harnessing the power of props for seamless data flow, handling events dynamically, and orchestrating application states ",
         years: "September 2023 to November 2023"
     },
     {
@@ -44,15 +44,15 @@ const skillSet = [
 
 const workExperiences = [
     {
-        id:0,
+        id: 0,
         title: "Data Entry",
-        company: "Kencana Mandiri Sejahtera",
+        company: "PT. Kencana Mandiri Sejahtera, Buah Batu",
         description: "Within my role as a data entry, I've gained invaluable experience managing crucial information at the intersection of employee attendance and exit clearance. Meticulously maintaining records and meticulously logging attendance details, I've been entrusted with the responsibility of accurately documenting the presence of personnel, ensuring precision and reliability in attendance records.",
         years: "October 2020 to February 2021"
 
     },
     {
-        id:2,
+        id: 2,
         title: "Computer Technician",
         company: "Sagita Computer, Bandung Trade Mall",
         description: "My tenure as a computer technician has been defined by a multifaceted role that encompasses the meticulous care of computer systems, adept installation and configuration of local area networks (LANs), and seamless implementation of diverse software solutions.",
@@ -61,4 +61,4 @@ const workExperiences = [
 ]
 
 
-export {educationData,skillSet,workExperiences}
+export { educationData, skillSet, workExperiences }
