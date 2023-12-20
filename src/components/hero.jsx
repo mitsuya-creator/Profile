@@ -1,6 +1,6 @@
 import React from "react"
 import profileImage from "@/assets/profile.png"
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 function Hero() {
     return (
@@ -17,11 +17,11 @@ function Hero() {
                         <Link to={"/curriculum-vitae"} target="_blank">
                             <button className="bg-violet-700 p-4 rounded-md text-slate-100">View CV</button>
                         </Link>
-                        <button className="bg-violet-700 p-4 mx-1 rounded-md text-slate-100">Contact</button>
+                        <button className="border-violet-700 border-2 p-4 mx-2 rounded-md text-violet-700">Contact</button>
                     </div>
                 </section>
                 <aside className="hidden md:block">
-                    <img src={profileImage} alt="__profile" width="288px"/>
+                    <img src={profileImage} alt="__profile" width="288px" />
                 </aside>
             </main>
         </div>

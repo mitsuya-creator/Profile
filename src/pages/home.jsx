@@ -9,7 +9,7 @@ function Home() {
     console.log("run")
 
     return (
-        <div className="bg-violet-100 w-screen h-full flex justify-center dark:bg-slate-900">
+        <div className="bg-violet-200 w-screen h-full flex justify-center dark:bg-slate-900">
             <section>
                 <Header />
                 <Hero />
