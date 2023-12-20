@@ -54,7 +54,7 @@ function ButtonNavigation() {
             } > <div
                 className={cn(
                     "button-navigation h-auto flex justify-around items-center rounded-lg border-2 " +
-                    "px-5 py-5 mx-5 dark:bg-slate-800 dark:border-violet-800 bg-violet-100"
+                    "px-5 py-5 mx-5 dark:bg-slate-800 border-0 drop-shadow-md bg-violet-100"
                 )}>
                     <Link to="/" className="dark:text-slate-400">
                         <section className="flex flex-col justify-center items-center">
