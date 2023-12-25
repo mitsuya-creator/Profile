@@ -5,8 +5,10 @@ import {
     AccordionItem,
     AccordionTrigger,
   } from "@/components/ui/accordion"
+  import { getAuth } from "@/utils/api/getMusic";
   
 function ContentPlays(){
+    getAuth()
     return(
         <div className="w-screen flex justify-center my-11 dark:text-slate-400">
             <main className="w-11/12 h-full xl:w-8/12">
