@@ -4,12 +4,12 @@ import {
     AccordionContent,
     AccordionItem,
     AccordionTrigger,
-  } from "@/components/ui/accordion"
-  import { getAuth } from "@/utils/api/getMusic";
-  
-function ContentPlays(){
-    getAuth()
-    return(
+} from "@/components/ui/accordion"
+import { asEverythingUnfoldsTracks, futurePalaceTracks } from "@/utils/musicData"
+
+function ContentPlays() {
+    console.log(asEverythingUnfoldsTracks, futurePalaceTracks)
+    return (
         <div className="w-screen flex justify-center my-11 dark:text-slate-400">
             <main className="w-11/12 h-full xl:w-8/12">
                 <p>
@@ -17,7 +17,14 @@ function ContentPlays(){
                 </p>
                 <Accordion type="single" collapsible="collapsible">
                     <AccordionItem value="item-1">
-                        <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                        <AccordionTrigger>{"loading..."}</AccordionTrigger>
+                        <AccordionContent>
+                            Yes. It adheres to the WAI-ARIA design pattern.
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-2">
+                        <AccordionTrigger>{"loading..."}</AccordionTrigger>
                         <AccordionContent>
                             Yes. It adheres to the WAI-ARIA design pattern.
                         </AccordionContent>
