@@ -15,7 +15,7 @@ function Hero() {
                         connections.</p>
                     <div className="w-full">
                         <Link to={"/curriculum-vitae"} target="_blank">
-                            <button className="bg-violet-700 p-4 rounded-md text-slate-100">View CV</button>
+                            <button className="bg-violet-700 p-4 rounded-md text-white-snow">View CV</button>
                         </Link>
                         <button className="border-violet-700 border-2 p-4 mx-2 rounded-md text-violet-700">Contact</button>
                     </div>

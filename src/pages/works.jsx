@@ -5,7 +5,7 @@ import Footer from "@/components/shared/footer"
 
 function Works() {
     return (
-        <div className="bg-violet-200 w-screen h-full flex justify-center dark:bg-slate-900">
+        <div className="bg-white-snow w-screen h-full flex justify-center dark:bg-dark-custom">
             <section>
                 <Header />
                 <WorkExperiences />

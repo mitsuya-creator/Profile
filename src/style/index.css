@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --bg-primary: #26252C;
+  --bg-primary: rgb(18, 18, 18);
   --bg-secondary: rgb(91 33 182);
   --bg-success: #64dd17;
   --bg-body: #2d2d30;
@@ -20,7 +20,7 @@
 
 body {
   overflow-x: hidden;
-  background-color: rgb(15, 23, 42) !important;
+  background-color: var(--bg-primary) !important;
 }
 
 .button-navigation {

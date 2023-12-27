@@ -43,12 +43,12 @@ function Footer() {
                     </Link>
                 </section>
                 <section
-                    className="border-t-2 w-inherit h-full mt-11 border-violet-800 flex flex-col-reverse md:justify-between md:flex-row ">
+                    className="border-t-2 w-inherit h-full mt-11 border-violet-800 dark:border-violet-aeu flex flex-col-reverse md:justify-between md:flex-row ">
                     <span className="text-base mt-2 dark:text-slate-400">&copy; takadotdev {getYear} | All Rights Reserved</span>
                     <div className="flex flex-col mt-3 md:justify-between md:flex-row">
                         <Link to={"https://www.instagram.com/takachan0012_/"}>
                             <section
-                                className="hidden mb-2 bg-violet-800 items-center rounded-full p-3 w-12 h-12 hover:bg-violet-900 md:ms-2 md:block">
+                                className="hidden mb-2 bg-violet-800  dark:bg-violet-aeu items-center rounded-full p-3 w-12 h-12 hover:bg-violet-900 md:ms-2 md:block">
                                 <FaInstagram className="w-6 h-6 fill-slate-100 dark:fill-slate-200" />
                             </section>
                             <span className="text-base dark:text-slate-400 md:hidden">Instagram</span>
@@ -56,7 +56,7 @@ function Footer() {
 
                         <Link to={"https://github.com/takachan0012"}>
                             <section
-                                className="hidden mb-2 bg-violet-800 items-center rounded-full p-3 w-12 h-12 hover:bg-violet-900 md:ms-2 md:block">
+                                className="hidden mb-2 bg-violet-800  dark:bg-violet-aeu items-center rounded-full p-3 w-12 h-12 hover:bg-violet-900 md:ms-2 md:block">
                                 <FaGithub className="w-6 h-6 fill-slate-100 dark:fill-slate-200" />
                             </section>
                             <span className="text-base dark:text-slate-400 md:hidden">Github</span>
@@ -64,7 +64,7 @@ function Footer() {
 
                         <Link to={"https://twitter.com/takachan0012_"}>
                             <section
-                                className="hidden mb-2 bg-violet-800 items-center rounded-full p-3 w-12 h-12 hover:bg-violet-900 md:ms-2 md:block">
+                                className="hidden mb-2 bg-violet-800  dark:bg-violet-aeu items-center rounded-full p-3 w-12 h-12 hover:bg-violet-900 md:ms-2 md:block">
                                 <FaXTwitter className="w-6 h-6 fill-slate-100 dark:fill-slate-200" />
                             </section>
                             <span className="text-base dark:text-slate-400 md:hidden">Xtwitter</span>
@@ -72,7 +72,7 @@ function Footer() {
 
                         <Link to={"https://www.linkedin.com/in/jujun-junaedi-514b1a1b4"}>
                             <section
-                                className="hidden mb-2 bg-violet-800 items-center rounded-full p-3 w-12 h-12 hover:bg-violet-900 md:ms-2 md:block">
+                                className="hidden mb-2 bg-violet-800  dark:bg-violet-aeu items-center rounded-full p-3 w-12 h-12 hover:bg-violet-900 md:ms-2 md:block">
                                 <FaLinkedin className="w-6 h-6 fill-slate-100 dark:fill-slate-200" />
                             </section>
                             <span className="text-base dark:text-slate-400 md:hidden">LinkedIn</span>
@@ -88,7 +88,7 @@ function Footer() {
 function CardFooter({ icon, title, description }) {
     return (
         <section className="flex justify-start items-center h-full w-full">
-            <div className="rounded-full bg-violet-800 p-3 dark:bg-violet-800">
+            <div className="rounded-full bg-violet-800 p-3 dark:bg-violet-aeu">
                 {icon}
             </div>
             <section className="ms-4">
