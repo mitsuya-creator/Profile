@@ -1,34 +1,29 @@
 import React from "react"
 import {
     Accordion,
-    AccordionContent,
-    AccordionItem,
-    AccordionTrigger,
 } from "@/components/ui/accordion"
-import { asEverythingUnfoldsTracks, futurePalaceTracks } from "@/utils/musicData"
+import AccordionItems from "@/components/accordionItem"
+import {
+    asEverythingUnfoldsListTracks,
+    futurePalaceListTracks,
+    landmvrksListTracks,
+    bulletForMyValentineListTracks,
+    peterpanListTracks
+} from "@/utils/musicData"
 
 function ContentPlays() {
-    console.log(asEverythingUnfoldsTracks, futurePalaceTracks)
     return (
         <div className="w-screen flex justify-center my-11 dark:text-slate-400">
             <main className="w-11/12 h-full xl:w-8/12">
                 <p>
                     Music is like a kaleidoscope of emotions and stories, a symphony that speaks a universal language. It's a journey that transcends boundaries, taking you through a whirlwind of feelings and experiences. The following is a list of music that I often play.
                 </p>
-                <Accordion type="single" collapsible="collapsible">
-                    <AccordionItem value="item-1">
-                        <AccordionTrigger>{"loading..."}</AccordionTrigger>
-                        <AccordionContent>
-                            Yes. It adheres to the WAI-ARIA design pattern.
-                        </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-2">
-                        <AccordionTrigger>{"loading..."}</AccordionTrigger>
-                        <AccordionContent>
-                            Yes. It adheres to the WAI-ARIA design pattern.
-                        </AccordionContent>
-                    </AccordionItem>
+                <Accordion type="single" collapsible="collapsible" className="py-3">
+                    <AccordionItems nameArtis={"As Everyting Unfolds"} itemTriger={1} listTracks={asEverythingUnfoldsListTracks} />
+                    <AccordionItems nameArtis={"Future Palace"} itemTriger={2} listTracks={futurePalaceListTracks} />
+                    <AccordionItems nameArtis={"LANDMVRKS"} itemTriger={3} listTracks={landmvrksListTracks} />
+                    <AccordionItems nameArtis={"Bullet For My Valentine"} itemTriger={4} listTracks={bulletForMyValentineListTracks} />
+                    <AccordionItems nameArtis={"Peterpan"} itemTriger={5} listTracks={peterpanListTracks} />
                 </Accordion>
             </main>
         </div>

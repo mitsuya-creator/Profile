@@ -34,7 +34,6 @@ const useGetAuth = () => {
         }
         getAuth();
     }, [])
-    // console.log(auth)
     return auth;
 };
 
