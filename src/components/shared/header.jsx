@@ -28,7 +28,7 @@ function SelectDemo() {
 
 function Header() {
     return (
-        <div className="w-screen flex justify-center overflow-x-hidden sticky top-0 z-50">
+        <div className="w-screen flex justify-center overflow-x-hidden sticky top-0 z-50 drop-shadow-md">
             <header className="bg-white-ivory w-11/12 h-full dark:bg-violet-aeu xl:w-8/12 ">
                 <section className="flex justify-between items-center">
                     <Link to={"/"}>

@@ -4,7 +4,7 @@
 
 :root {
   --bg-primary: rgb(18, 18, 18);
-  --bg-secondary: rgb(91 33 182);
+  --bg-secondary: #312466;
   --bg-success: #64dd17;
   --bg-body: #2d2d30;
   --color-primary: #ffffff;
@@ -23,11 +23,6 @@ body {
   background-color: var(--bg-primary) !important;
 }
 
-.button-navigation {
-  width: clamp(100px, 400px, 700px) !important;
-  font-size: clamp(1rem) !important;
-}
-
 .icon {
   width: clamp(12px, 20px, 24px) !important;
   height: clamp(12px, 20px, 24px) !important;
@@ -35,7 +30,6 @@ body {
 }
 
 .current-selected {
-  fill: var(--bg-secondary) !important;
   color: var(--bg-secondary) !important;
 }
 
