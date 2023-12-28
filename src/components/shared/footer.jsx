@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 
 function Footer() {
     return (
-        <div className="w-screen flex justify-center mt-11 md:mt-11">
+        <div className="w-screen flex justify-center mb-40 md:mb-40">
             <div className="w-11/12 h-full  xl:w-8/12 ">
                 <section className="grid grid-cols-1 gap-4 md:grid-cols-2">
                     <CardFooter
