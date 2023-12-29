@@ -4,7 +4,7 @@ import { educationData, skillSet, workExperiences } from "@/utils/profileData"
 
 function CurriculumVitae() {
     return (
-        <div className="bg-violet-200 w-screen flex flex-col items-center dark:bg-gray-400">
+        <div className="bg-white-snow w-screen flex flex-col items-center dark:bg-gray-400">
             <section className="w-11/12 flex justify-evenly mt-3 items-center border-b p-4 border-black">
                 <div className="rounded-full overflow-hidden">
                     <img src={profile} alt="profile-image" width={100} />
@@ -37,6 +37,7 @@ function CurriculumVitae() {
                     {workExperiences.map(data => <LisContent key={data.id} title={data.title} description={data.description} company={data.company} years={data.years} />)}
                 </div>
             </section>
+            <button onClick={() => window.print()}>Print</button>
         </div>
     )
 }
