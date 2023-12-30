@@ -16,13 +16,11 @@ function CallToAction() {
                 <p className="mb-3 font-semibold">
                     🌐 What's in it for you?
                 </p>
-                <p className="mb-3">
-                    <ul className="list-disc list-inside">
-                        <li>Access my expertise in Front-End Web</li>
-                        <li>Gain exposure to a wider audience</li>
-                        <li>Collaborate on innovative projects that drive results</li>
-                    </ul>
-                </p>
+                <ul className="list-disc list-inside mb-3">
+                    <li>Access my expertise in Front-End Web</li>
+                    <li>Gain exposure to a wider audience</li>
+                    <li>Collaborate on innovative projects that drive results</li>
+                </ul>
                 <p className="mb-3">
                     Reach out today at my social media below or send me email directly.
                     let's embark on a journey to success!
