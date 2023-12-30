@@ -14,7 +14,7 @@ function Hero() {
                         I discovered my love for unraveling complexities and weaving them into seamless
                         connections.</p>
                     <div className="w-full">
-                        <Link to={"/curriculum-vitae"} target="_blank">
+                        <Link to={"/curriculum-vitae"}>
                             <button className="bg-violet-700 p-4 rounded-md text-white-snow">View CV</button>
                         </Link>
                         <Link to={"/messages"}>

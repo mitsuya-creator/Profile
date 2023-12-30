@@ -14,7 +14,9 @@ function Header() {
                         </div>
                     </Link>
                     <div className="flex justify-end items-center">
-                        <a href="#" className="mx-5 dark:text-white-snow">Blog</a>
+                        <Link to={"/blog"} className="mx-5 dark:text-white-snow">
+                            Blog
+                        </Link>
                     </div>
                 </section>
             </header>
