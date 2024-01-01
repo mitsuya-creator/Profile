@@ -6,13 +6,15 @@ function ButtonNavigation() {
     const { pathname } = useLocation();
     const [isLoaded, setIsLoaded] = useState(false);
     const [isDarkMode, setIsDarkMode] = useState(false);
-    useEffect(() => selectedButtonNavigate(pathname), [pathname, isLoaded])
+    useEffect(() => {
+        selectedButtonNavigate(pathname)
+        if (window.scrollY) window.scroll(0, 0)
+    }, [pathname, isLoaded])
     const toggleDarkMode = () => {
         const newMode = !isDarkMode;
         setIsDarkMode(newMode);
         localStorage.setItem('darkMode', JSON.stringify(newMode));
     };
-
     useEffect(() => {
         // Check if a preference is saved in local storage
         const darkModePreference = localStorage.getItem('darkMode');
