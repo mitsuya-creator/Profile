@@ -23,22 +23,28 @@ const educationData = [
 const skillSet = [
     {
         name: "HTML",
-        status: "Intermediate"
+        status: "Intermediate",
+        link: "https://developer.mozilla.org/en-US/docs/Web/HTML"
     }, {
         name: "CSS3",
-        status: "Intermediate"
+        status: "Intermediate",
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS"
     }, {
         name: "JavaScript",
-        status: "Intermediate"
+        status: "Intermediate",
+        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
     }, {
         name: "Bootstrap",
-        status: "Intermediate"
+        status: "Intermediate",
+        link: "https://react-bootstrap.netlify.app/"
     }, {
         name: "ReactJS",
-        status: "Intermediate"
+        status: "Intermediate",
+        link: "https://react.dev/"
     }, {
         name: "TailwindCSS",
-        status: "Intermediate"
+        status: "Intermediate",
+        link: "https://tailwindcss.com/"
     }
 ]
 
