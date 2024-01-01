@@ -1,0 +1,32 @@
+{
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/"
+        },
+        {
+            "src": "/works",
+            "dest": "/"
+        },
+        {
+            "src": "/plays",
+            "dest": "/"
+        },
+        {
+            "src": "/messages",
+            "dest": "/"
+        },
+        {
+            "src": "/curriculum-vitae",
+            "dest": "/"
+        },
+        {
+            "handle": "filesystem"
+        },
+        {
+            "src": "/(.*)",
+            "status": 404,
+            "dest": "/"
+        }
+    ]
+}
