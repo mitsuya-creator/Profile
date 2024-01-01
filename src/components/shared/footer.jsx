@@ -54,7 +54,7 @@ function Footer() {
                             <span className="text-base dark:text-slate-400 md:hidden">Instagram</span>
                         </Link>
 
-                        <Link to={"https://github.com/takachan0012"}>
+                        <Link to={"https://github.com/takachan0012/Profile"}>
                             <section
                                 className="hidden mb-2 bg-violet-800  dark:bg-violet-aeu items-center rounded-full p-3 w-12 h-12 hover:bg-violet-900 md:ms-2 md:block">
                                 <FaGithub className="w-6 h-6 fill-slate-100 dark:fill-slate-200" />

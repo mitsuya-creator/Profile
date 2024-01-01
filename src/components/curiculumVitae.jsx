@@ -23,8 +23,8 @@ function CurriculumVitae() {
         }
     }, [])
     return (
-        <div className="bg-white-snow w-screen flex flex-col items-center">
-            <section className={cn("fixed top-0 p-2 flex flex-start justify-between bg-white-snow w-screen items-center md:justify-start", isPrint && "hidden")}>
+        <div className="bg-white-snow w-screen flex flex-col items-center dark:text-slate-400 dark:bg-dark-custom">
+            <section className={cn("fixed top-0 p-2 flex flex-start justify-between bg-white-snow w-screen items-center md:justify-start dark:bg-dark-custom", isPrint && "hidden")}>
                 <button onClick={() => window.history.back()}>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
