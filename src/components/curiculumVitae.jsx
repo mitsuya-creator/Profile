@@ -42,7 +42,7 @@ function CurriculumVitae() {
                         <p className="sm:text-base flex flex-col">
                             <span>Cianjur, 11 July 2001</span>
                             <span>jujunjunaedi110107@gmail.com</span>
-                            <span>www...</span>
+                            <span>https://wildcards.vercel.app</span>
                         </p>
                     </div>
                 </section>
