@@ -6,20 +6,24 @@ import Works from "@/pages/works"
 import Plays from "@/pages/plays"
 import Messages from "@/pages/messages"
 import CurriculumVitae from "@/components/curiculumVitae"
+import { Analytics } from "@vercel/analytics/react";
 
 function Layout() {
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<ButtonNavigation />}>
-                    <Route index element={<Home />} />
-                    <Route path="/works" element={<Works />} />
-                    <Route path="/plays" element={<Plays />} />
-                    <Route path="/messages" element={<Messages />} />
-                </Route>
-                <Route path="/curriculum-vitae" element={<CurriculumVitae />} />
-            </Routes>
-        </BrowserRouter>
+        <>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<ButtonNavigation />}>
+                        <Route index element={<Home />} />
+                        <Route path="/works" element={<Works />} />
+                        <Route path="/plays" element={<Plays />} />
+                        <Route path="/messages" element={<Messages />} />
+                    </Route>
+                    <Route path="/curriculum-vitae" element={<CurriculumVitae />} />
+                </Routes>
+            </BrowserRouter>
+            <Analytics />
+        </>
     )
 }
 
