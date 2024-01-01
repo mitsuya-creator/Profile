@@ -14,8 +14,8 @@ function Header() {
                         </div>
                     </Link>
                     <div className="flex justify-end items-center">
-                        <Link to={"/blog"} className="mx-5 dark:text-white-snow">
-                            Blog
+                        <Link to={"https://medium.com/@takachan0012"} className="mx-5 dark:text-white-snow">
+                            Article
                         </Link>
                     </div>
                 </section>
