@@ -6,10 +6,10 @@ function Header() {
     return (
         <div className="w-screen flex justify-center overflow-x-hidden sticky top-0 z-50 drop-shadow-md">
             <header className="bg-white-ivory w-11/12 h-full dark:bg-violet-aeu xl:w-8/12 ">
-                <section className="flex justify-between items-center">
+                <section className="flex justify-between items-center h-16">
                     <Link to={"/"}>
                         <div className="flex justify-start items-center">
-                            <img src={icon} alt="icon-profile" className="w-16" />
+                            <img src={icon} alt="icon-profile" className="w-16" loading="lazy" />
                             <h1 className="font-bold text-3xl mx-3 dark:text-white-snow">JUN</h1>
                         </div>
                     </Link>

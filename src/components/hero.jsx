@@ -23,7 +23,7 @@ function Hero() {
                     </div>
                 </section>
                 <aside className="hidden md:block">
-                    <img src={profileImage} alt="__profile" width="288px" />
+                    <img src={profileImage} alt="__profile" width="288px" lazy />
                 </aside>
             </main>
         </div>
