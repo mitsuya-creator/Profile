@@ -54,6 +54,13 @@ const skillSet = [
 const workExperiences = [
     {
         id: 0,
+        title: "Freelancer, Full Stack Web Developer",
+        company: "Self-Employed, Cianjur",
+        description: "As a Freelancer Web Developer, I consult with clients, plan projects, and design responsive websites using technologies like HTML, CSS, JavaScript, React, NextJs and Laravel. I handle both front-end and back-end development, manage databases with MySQL, ensure SEO optimization, and provide ongoing maintenance and support. Additionally, I collaborate with designers and offer client training for content management",
+        years: "February 2023 to Present"
+    },
+    {
+        id: 1,
         title: "Data Entry",
         company: "PT. Kencana Mandiri Sejahtera, Buah Batu",
         description: "Within my role as a data entry, I've gained invaluable experience managing crucial information at the intersection of employee attendance and exit clearance. Meticulously maintaining records and meticulously logging attendance details, I've been entrusted with the responsibility of accurately documenting the presence of personnel, ensuring precision and reliability in attendance records.",
