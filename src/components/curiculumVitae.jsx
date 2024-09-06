@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import profile from "@/assets/profile.png"
+import profile from "@/assets/profile.jpg"
 import { educationData, skillSet, workExperiences } from "@/utils/profileData"
 import { cn } from "cntw"
 import { flushSync } from "react-dom"

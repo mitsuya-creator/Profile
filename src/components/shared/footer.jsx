@@ -62,14 +62,6 @@ function Footer() {
                             <span className="text-base dark:text-slate-400 md:hidden">Github</span>
                         </Link>
 
-                        <Link to={"https://twitter.com/takachan0012_"}>
-                            <section
-                                className="hidden mb-2 bg-violet-800  dark:bg-violet-aeu items-center rounded-full p-3 w-12 h-12 hover:bg-violet-900 md:ms-2 md:block">
-                                <FaXTwitter className="w-6 h-6 fill-slate-100 dark:fill-slate-200" />
-                            </section>
-                            <span className="text-base dark:text-slate-400 md:hidden">Xtwitter</span>
-                        </Link>
-
                         <Link to={"https://www.linkedin.com/in/jujun-junaedi-514b1a1b4"}>
                             <section
                                 className="hidden mb-2 bg-violet-800  dark:bg-violet-aeu items-center rounded-full p-3 w-12 h-12 hover:bg-violet-900 md:ms-2 md:block">

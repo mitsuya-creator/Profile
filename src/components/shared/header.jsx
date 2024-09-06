@@ -14,7 +14,7 @@ function Header() {
                         </div>
                     </Link>
                     <div className="flex justify-end items-center">
-                        <Link to={"https://medium.com/@takachan0012"} className="mx-5 dark:text-white-snow">
+                        <Link to={"https://medium.com/@takachan0012"} target="_blank" className="mx-5 dark:text-white-snow">
                             Article
                         </Link>
                     </div>
