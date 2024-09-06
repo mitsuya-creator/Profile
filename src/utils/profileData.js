@@ -23,29 +23,32 @@ const educationData = [
 const skillSet = [
     {
         name: "HTML",
-        status: "Intermediate",
         link: "https://developer.mozilla.org/en-US/docs/Web/HTML"
     }, {
         name: "CSS3",
-        status: "Intermediate",
         link: "https://developer.mozilla.org/en-US/docs/Web/CSS"
     }, {
         name: "JavaScript",
-        status: "Intermediate",
         link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
     }, {
         name: "Bootstrap",
-        status: "Intermediate",
         link: "https://react-bootstrap.netlify.app/"
     }, {
         name: "ReactJS",
-        status: "Intermediate",
         link: "https://react.dev/"
     }, {
         name: "TailwindCSS",
-        status: "Intermediate",
         link: "https://tailwindcss.com/"
-    }
+    }, {
+        name: "MySQL",
+        link: "https://dev.mysql.com/doc/"
+    }, {
+        name: "NextJS",
+        link: "https://nextjs.org/"
+    }, {
+        name: "PostgreSQL",
+        link: "https://www.postgresql.org/docs/current/index.html"
+    },
 ]
 
 const workExperiences = [
