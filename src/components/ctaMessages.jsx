@@ -11,13 +11,13 @@ function CallToAction() {
                     Are you ready to amplify your brand's impact and reach new horizons? Join forces with me and unlock a world of endless possibilities!
                 </p>
                 <p className="mb-3">
-                    🤝 Who am I? I specialize in crafting dynamic, user-centric websites with a mastery of JavaScript, ReactJS, CSS, HTML, Tailwind CSS, and Bootstrap.
+                    🤝 Who am I? I specialize in crafting dynamic, user-centric websites with a mastery of JavaScript, ReactJS, CSS, HTML, Tailwind CSS, MySQL, PostreSQL, NextJS and Bootstrap.
                 </p>
                 <p className="mb-3 font-semibold">
                     🌐 What's in it for you?
                 </p>
                 <ul className="list-disc list-inside mb-3">
-                    <li>Access my expertise in Front-End Web</li>
+                    <li>Access my expertise in Full Stack Web</li>
                     <li>Gain exposure to a wider audience</li>
                     <li>Collaborate on innovative projects that drive results</li>
                 </ul>
