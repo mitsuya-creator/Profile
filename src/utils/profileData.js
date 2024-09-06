@@ -76,5 +76,24 @@ const workExperiences = [
     }
 ]
 
+const projects = [
+    {
+        id: 0,
+        title: "Tokopedia Home UI Clone",
+        link: "https://clone-toped.vercel.app/",
+        description: "This project is an e-commerce application that mimics the design of Tokopedia. By leveraging third-party APIs."
+    }, {
+        id: 1,
+        title: "Simple BookshelfApp",
+        link: "https://notes-wildcards.vercel.app/",
+        description: "The Simple Bookshelf App is a user-friendly web application designed to manage a personal book collection. This application allows users to perform basic operations on their bookshelf, including creating, reading, updating, and deleting book entries."
+    }, {
+        id: 2,
+        title: "Simple To-Do List App",
+        link: "https://todosappx.vercel.app/dashboard",
+        description: "The Simple To-Do List App allows users to manage tasks by creating, reading, updating, and deleting entries. It leverages local storage to persist data across sessions, providing an easy and efficient way to keep track of daily tasks directly from the web browser"
+    },
 
-export { educationData, skillSet, workExperiences }
+]
+
+export { educationData, skillSet, workExperiences, projects }
