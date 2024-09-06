@@ -86,7 +86,7 @@ const projects = [
         id: 1,
         title: "Simple BookshelfApp",
         link: "https://notes-wildcards.vercel.app/",
-        description: "The Simple Bookshelf App is a user-friendly web application designed to manage a personal book collection. This application allows users to perform basic operations on their bookshelf, including creating, reading, updating, and deleting book entries."
+        description: "The Simple Bookshelf App is a user-friendly web application designed to manage a personal book collection. This application allows users to perform basic operations on their bookshelf, including creating and reading"
     }, {
         id: 2,
         title: "Simple To-Do List App",
